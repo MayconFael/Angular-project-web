@@ -1,0 +1,27 @@
+<div>
+    <h3 class="p-3 bg-light mb-2">Api User</h3>
+  
+    <div class="row">
+      <div class ="col-sm-5 offset-sm-1">
+        <div class="card">
+          <div class="card-header">
+            Formulário de Gravação
+          </div>
+          <div class="card-body">
+            <input type="text" class="form-control mb-2" placeholder="Digite o nome completo" name="nome" [(ngModel)]="user.nome">
+  
+            <input type="text" class="form-control mb-2" placeholder="Digite o E-mail" name="email" [(ngModel)]="user.email">
+  
+            <input type="password" class="form-control mb-2" placeholder="Digite a Senha" name="senha" [(ngModel)]="user.senha">
+  
+            <input type="text" class="form-control mb-2" placeholder="Digite o Status" name="status" [(ngModel)]="user.status">
+  
+          </div>
+          <div class="card-footer">
+            <button class=" " > Gravar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
